@@ -1,3 +1,23 @@
+#content {
+    width: 640px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 1em;
+}
+.first-box {
+    margin-top: 0px;
+    height: 40px;
+
+}
+.first-box img {
+    background-color: white;
+    position: relative;
+    border-style: solid;
+    border-color: #C9DCB3;
+}
 body {margin: .5rem;}
 span {font-weight: 700;}
 #currentdate {color:rgba(50,50,250,1);}
