@@ -11,11 +11,13 @@ h2 {
     font-size: 1rem;
     text-align: center;
     border-bottom: 1px solid rgb(187, 187, 187);
+    border-radius: 5px
 }
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 600px;
+    border-radius: 5px
 }
 header, footer, footer a {
     text-align: center;
