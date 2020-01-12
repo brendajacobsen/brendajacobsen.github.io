@@ -17,6 +17,8 @@
 
 }
 .first-box img {
+    width: 20px;
+    height: 20px;
     background-color: white;
     position: relative;
     border-style: solid;
