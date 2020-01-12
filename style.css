@@ -19,7 +19,7 @@ header, main, footer {
 }
 header, footer, footer a {
     text-align: center;
-    background-color:rgba(69, 5, 170, 0.822);
+    background-color:#ff6347;
     color: white;
 }
 header img {
