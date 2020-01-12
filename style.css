@@ -20,6 +20,7 @@ header, main, footer {
 header, footer, footer a {
     text-align: center;
     background-color:#ff6347;
+    border-radius: 5px;
     color: white;
 }
 header img {
