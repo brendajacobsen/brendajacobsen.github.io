@@ -13,10 +13,8 @@
 
 }
 .first-box img {
-    width: 35;
-    height: 35;
     background-color: white;
-    position: right;
+    position: relative;
     border-style: solid;
     border-color: #C9DCB3;
 }
