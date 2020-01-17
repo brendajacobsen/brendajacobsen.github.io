@@ -33,5 +33,8 @@ header img {
     height: auto;
     float: right;
 }
-span {font-weight: 700;}
-#currentdate {color:rgba(50,50,250,1);}
+span {font-weight: 500;}
+#lastupdated {
+    font-size: 1em;
+    color:rgba(50,50,250,1);
+}
