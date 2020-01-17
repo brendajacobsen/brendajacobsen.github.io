@@ -1,14 +1,7 @@
-try{
-    let options = {
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric"
-    };
-    document.getElementById(
-        "currentdate2"
-    ).textContent = new Date().toLocaleDateString("en-US", options);
-} catch (e) {
-    alert(document.lastModified);
-    // returns: Saturday, January 12, 2020 10:56:42);
-}
+let date = new Date();
+let year = date.getFullYear();
+
+let lastModify = document.lastModified;
+
+document.getElementById("currentdate2").textContent = year;
+document.getElementById("lastupdate").textContent = "Last Updated: " + lastModify;
