@@ -32,6 +32,7 @@ header img {
     width: 150px;
     height: auto;
     float: right;
+    padding-bottom: 5px;
 }
 span {font-weight: 500;}
 #lastmod {
