@@ -20,6 +20,8 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
+    padding-top: 20px;
+    padding-bottom:20px;
     max-width: 600px;
     border-radius: 5px
 }
@@ -33,6 +35,7 @@ header img {
     height: auto;
     float: right;
     padding-bottom: 5px;
+    border-radius: 50%;
 }
 span {font-weight: 500;}
 #lastmod {
