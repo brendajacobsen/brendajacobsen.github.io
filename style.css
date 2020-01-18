@@ -34,7 +34,6 @@ header img {
     float: right;
 }
 span {font-weight: 500;}
-#lastupdated {
+#lastmod {
     font-size: 0.75em;
-    color:rgba(50,50,250,1);
 }
