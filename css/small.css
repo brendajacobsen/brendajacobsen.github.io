@@ -27,11 +27,6 @@ header, footer {
     max-width: 600px;
     border-radius: 5px
 }
-header, footer, footer a {
-    text-align: center;
-    background-color:#ff6347;
-    color: white;
-}
 header img {
     width: 150px;
     height: auto;
