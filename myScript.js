@@ -1,4 +1,4 @@
-let date = new Date( document.lastModified);
+let date = new Date();
 let year = date.getFullYear();
 
 let lastModify = document.lastModified;
