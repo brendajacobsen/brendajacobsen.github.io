@@ -1,0 +1,87 @@
+body {
+    font-size: 1em;
+    line-height: 2;
+    background-color:#ff6347;
+   
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    margin: 2rem auto;
+}
+ 
+header, footer {
+    background-color:#ff6347;
+    color: black;
+    
+    text-align: center;
+    padding: .5rem;
+    border-radius: 20px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px; 
+    margin: .75rem auto;
+    max-width: 700px;
+    
+
+}
+section {
+    padding: 1em;
+    margin: 1rem;
+}
+
+.contrast {
+    background-color:rgba(152,152,155, 0.3);
+    color: white;
+    
+}
+
+h2 {
+    
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px; 
+    text-align: center;
+}
+h3 {
+    
+    text-align: center;
+    margin-bottom: -1em;
+  
+}
+.alignment {
+    background-color: rgba(152,152,155, 0.3);
+}
+
+img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    box-shadow: 5px 10px 18px rgb(94, 92, 92);
+   
+  }
+  .marvel {
+    box-shadow: 5px 10px 18px rgba(152,152,155, 0.3);
+
+   }
+  .responsive {
+    max-width: 90%;
+    height: auto;
+}
+
+
+
+footer {
+    text-shadow: 1px 1px black;
+    color: white;
+    
+}
+
+a:hover {
+    background-color:#ff6347;
+    color: white;
+    text-decoration: none;
+}
