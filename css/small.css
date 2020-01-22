@@ -8,6 +8,17 @@ nav, main {
     margin: 1.25rem auto;
     max-width: 760px;
 }
+header, footer {
+    background-color:#ff6347;
+    color: black ;
+    text-align: center;
+    margin: 1.25rem auto;
+    padding: .5rem;
+    padding-top: 20px;
+    padding-bottom:20px;
+    max-width: 600px;
+    border-radius: 5px
+}
 h1 {
     font-size: 2rem;
     font-family: 'Quicksand', sans-serif;
@@ -19,14 +30,7 @@ h2 {
     text-align: left;
     border-bottom: 1px solid black;
 }
-header, footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
-    padding-top: 20px;
-    padding-bottom:20px;
-    max-width: 600px;
-    border-radius: 5px
-}
+
 header img {
     width: 150px;
     height: auto;
