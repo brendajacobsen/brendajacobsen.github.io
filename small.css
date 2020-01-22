@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif, sans-serif ;
     background-color: white;
 }
-nav{
+nav, main {
     margin: 1.25rem auto;
     max-width: 760px;
 }
@@ -19,7 +19,7 @@ h2 {
     text-align: left;
     border-bottom: 1px solid black;
 }
-header, main, footer {
+header, footer {
     margin: 1.25rem auto;
     padding: .5rem;
     padding-top: 20px;
@@ -39,7 +39,12 @@ header img {
     padding-bottom: 5px;
     border-radius: 50%;
 }
-span {font-weight: 500;}
+a:hover {
+    text-align: center;
+    background-color:#ff6347;
+    color: white;
+    text-decoration: none;
+}
 .responsive {
     max-width: 100%;
     height: auto;
