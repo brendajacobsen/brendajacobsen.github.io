@@ -7,7 +7,8 @@ body {
 
 /* phone or baseline views **************************/
 header,footer {
-	background-color:#ff6347;
+    background-color:#ff6347;
+    color: white;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
