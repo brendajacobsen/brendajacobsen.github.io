@@ -6,16 +6,20 @@ body {
 }
 
 /* phone or baseline views **************************/
-header,
-footer {
-	background-color: #bed;
+header,footer {
+	background-color:#ff6347;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	justify-content: center;
-	padding: 10px;
+    justify-content: center;
+    
+    padding: .5rem;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    margin: 1.25rem auto;
+    max-width: 700px;
+    border-radius: 5px
 }
-
 header,
 nav,
 main,
