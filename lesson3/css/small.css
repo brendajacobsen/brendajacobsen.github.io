@@ -10,7 +10,7 @@ header,footer {
     background-color:#ff6347;
     color: white;
 	display: flex;
-	flex-flow: column;
+	flex-flow: row;
 	align-items: center;
     justify-content: center;
     
