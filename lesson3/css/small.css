@@ -21,7 +21,7 @@ header,footer {
     max-width: 700px;
     border-radius: 5px
 }
-header, nav, main, footer{
+header, nav, main {
 	max-width: 767px;
 	margin: 0 auto;
 }
