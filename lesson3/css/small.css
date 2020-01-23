@@ -54,7 +54,7 @@ nav a:hover {
 	color: #36454f;
 }
 .active {
-	color: yellow;
+	color: orange;
 }
 main {
 	display: grid;
