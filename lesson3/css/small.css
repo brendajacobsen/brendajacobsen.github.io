@@ -18,11 +18,11 @@ header,footer {
     padding-top: 20px;
     letter-spacing: 2px;
     margin: 1.25rem auto;
-    max-width: 700px;
+    max-width: 780px;
     border-radius: 5px
 }
 header, nav, main {
-	max-width: 767px;
+	max-width: 780px;
 	margin: 0 auto;
 }
 h1 {
