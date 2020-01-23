@@ -59,7 +59,7 @@ nav a:hover {
 	color: orange;
 }
 main {
-	display: grid;
+	display: column;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
