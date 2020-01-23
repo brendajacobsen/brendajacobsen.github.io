@@ -9,7 +9,7 @@ body {
 header,footer {
     background-color:#ff6347;
     color: white;
-	align-items: center;
+	text-align: center;
     justify-content: center;
     
     padding: .5rem;
