@@ -137,4 +137,7 @@ main picture {
     a {
         color:  rgb(255, 177, 0);
     }
+    .domimg {
+        max-width: 100%;
+    }
 }
