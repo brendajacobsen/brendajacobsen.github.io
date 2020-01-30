@@ -139,5 +139,27 @@ main picture {
     }
     .domimg {
         max-width: 100%;
-    }
+	}
+	.persona-flex{
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.persona-child {
+		padding: 0.5em;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.picPlaceholder {
+		width: 150px;
+		border-radius: 50%;
+	}
+	
+	.textCenter {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
 }
