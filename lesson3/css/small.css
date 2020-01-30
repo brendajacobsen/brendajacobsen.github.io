@@ -33,7 +33,10 @@ h1 {
 h2 {
     color: #370031;
 }
-
+h3 {
+	font-size: 3rem;
+	color: black;	
+}
 nav {
 	background-color: #e0e0eb;
 	text-align: center;
