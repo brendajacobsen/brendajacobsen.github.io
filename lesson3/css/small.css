@@ -165,4 +165,11 @@ main picture {
 		margin: 0;
 		text-align: center;
 	}
+	#typeFjalla {
+		font-family: 'Fjalla One', sans-serif;
+	}
+	
+	#typeEB {
+		font-family: 'EB Garamond', serif;
+	}
 }
