@@ -140,6 +140,9 @@ main picture {
     .domimg {
         max-width: 100%;
 	}
+	.palette {
+		max-width: 100%;
+	}
 	.persona-flex{
 		margin: 0;
 		display: flex;
