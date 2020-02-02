@@ -208,3 +208,16 @@ footer p {
 nav label {
     margin-left: 125px;
 }
+.dark {
+    color: #020202;
+    background-color: #f1f9f9;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.center {
+    align-items: center;
+}
