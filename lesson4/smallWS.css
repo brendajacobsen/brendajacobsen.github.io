@@ -145,16 +145,6 @@ footer p {
     flex: 2 auto;
 }
 
-.dark {
-    color: white;
-    background-color:#370031;
-}
-
-.flex {
-    display: flex;
-    flex-flow: column wrap;
-}
-
 .action {
     grid-column: 1;
     grid-row: 1;
@@ -164,13 +154,6 @@ footer p {
     text-align: center;
 }
 
-.action button {
-    line-height: 2em;
-    width: 10em;
-    background-color: #e7c24f;
-    font-size: 1.5em;
-    margin-top: 60px;
-}
 .Pimage {
     max-width: 100%;
     max-height:100%;
