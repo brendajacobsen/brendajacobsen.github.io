@@ -205,3 +205,6 @@ footer p {
     grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
     grid-row: 1;
 }
+nav label {
+    margin-left: 125px;
+}
