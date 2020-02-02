@@ -111,6 +111,10 @@ article {
 section {
     padding: 1em;
     margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    margin: 2rem auto;
 }
 article div {
     padding: 12px;
