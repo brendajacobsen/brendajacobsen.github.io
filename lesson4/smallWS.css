@@ -196,3 +196,12 @@ footer p {
     padding: 100px 12px;
     text-align: center;
 }
+.banner-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner-box img {
+    grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+    grid-row: 1;
+}
