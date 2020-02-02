@@ -144,6 +144,15 @@ footer p {
 #copyright {
     flex: 2 auto;
 }
+.dark {
+    color: white;
+    background-color:#370031;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+}
 
 .action {
     grid-column: 1;
