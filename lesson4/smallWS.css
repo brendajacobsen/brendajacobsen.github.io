@@ -11,11 +11,8 @@ body {
 }
 
 #logo {
-    margin-left: 12px;
-    width: 150px;
-    background-color: white;
-    padding-left: 2.5px;
-    position: relative;
+    width: 10%;
+    vertical-align: middle;
 }
 
 #logoName{
