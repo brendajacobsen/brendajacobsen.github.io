@@ -153,10 +153,6 @@ footer p {
     flex-flow: column wrap;
 }
 
-.center {
-    align-items: center;
-}
-
 .action {
     grid-column: 1;
     grid-row: 1;
