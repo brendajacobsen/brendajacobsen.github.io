@@ -200,7 +200,7 @@ nav label {
     display: grid;
     grid-column-gap: 50px;
   }
-  .item1 {
+  .grid-item {
     grid-column-start: 1;
     grid-column-end: 3;
   }
