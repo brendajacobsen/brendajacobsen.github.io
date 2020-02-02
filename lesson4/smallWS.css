@@ -48,21 +48,6 @@ nav {
     max-width: 760px;
     background-color: #370031;
 }
-nav ul {
-    margin: 0;
-    display: flex;
-    flex-flow: column wrap;
-}
-nav li {
-    list-style-type: none;
-}
-nav a, nav label {
-    font-size: 1.2em;
-    display: block;
-    padding: 1em;
-    color: white;
-    text-decoration: none;
-}
 .navigation {
 	list-style: none;
 	padding: 0;
