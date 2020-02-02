@@ -111,10 +111,6 @@ article {
 section {
     padding: 1em;
     margin: 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    
-    margin: 2rem auto;
 }
 article div {
     padding: 12px;
@@ -198,3 +194,11 @@ nav label {
     color: black;
     
 }
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+  }
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
