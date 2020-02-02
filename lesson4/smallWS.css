@@ -177,3 +177,7 @@ nav label {
     font-size: 1.2em;
     margin-top: 60px;
 }
+.Pimage {
+    max-width: 100%;
+    max-height:100%;
+}
