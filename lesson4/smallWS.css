@@ -111,18 +111,18 @@ nav {
     background-color: #ffffff;
 }
 
-article {
+section {
     padding: 12px 0;
 }
 section {
     padding: 1em;
     margin: 1rem;
 }
-article div {
+section div {
     padding: 12px;
 }
 
-article img {
+section img {
     border: 0 solid #000;
     border-radius: 5px;
     background-color: #fff;
