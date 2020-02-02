@@ -46,6 +46,7 @@ h2 {
 main, footer {
     display: flex;
     max-width: 980px;
+    align-items: center;
 }
 header {
     display: flex;
