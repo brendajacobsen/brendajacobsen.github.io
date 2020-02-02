@@ -104,20 +104,19 @@ nav {
     max-width: 960px;
     background-color: #ffffff;
 }
-#section-3 {
-    margin: auto;
-    max-width: 60%;
-    padding: 100px 12px;
-    text-align: center;
-}
-section {
+
+article {
     padding: 12px 0;
 }
-section div {
+section {
+    padding: 1em;
+    margin: 1rem;
+}
+article div {
     padding: 12px;
 }
 
-section img {
+article img {
     border: 0 solid #000;
     border-radius: 5px;
     background-color: #fff;
