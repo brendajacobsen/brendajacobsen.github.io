@@ -13,6 +13,7 @@ body {
 #logo {
     width: 10%;
     vertical-align: middle;
+    padding-right: 30px;
 }
 h1 {
     font-size: 3rem;
