@@ -42,11 +42,15 @@ h2 {
     font-size: 1.8em;
     font-family: 'Fjalla One', sans-serif;
 }
-header, main, footer {
+main, footer {
     display: flex;
     max-width: 980px;
 }
-
+header {
+    display: flex;
+    max-width: 980px;
+    align-items: center;
+}
 nav {
     margin: 0 auto;
     max-width: 980px;
