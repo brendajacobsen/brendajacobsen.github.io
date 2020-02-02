@@ -10,6 +10,12 @@
         margin: 1em;
     
     }
+    footer {
+        padding: 0;
+        padding-left: 12px;
+        max-height: 55px;
+        flex-flow: row wrap;
+    }
     p {
         margin: .75em;
         text-align: justify;
