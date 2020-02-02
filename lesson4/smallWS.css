@@ -150,15 +150,6 @@ footer p {
 nav label {
     margin-left: 125px;
 }
-#toggle {
-    display: none;
-}
-#toggle[type=checkbox] ~ ul {
-    display: none;
-}
-#toggle[type=checkbox]:checked ~ ul {
-    display: flex;
-}
 
 .dark {
     color: white;
@@ -199,31 +190,4 @@ nav label {
     background-color: #e7c24f;
     font-size: 1.2em;
     margin-top: 60px;
-}
-
-@media screen and (min-width: 600px) {
-    nav label {
-        display: none;
-    }
-
-    #toggle[type=checkbox] ~ ul {
-        display: flex;
-        flex-flow: row wrap;
-    }
-    footer {
-        padding: 0;
-        padding-left: 12px;
-        max-height: 55px;
-        flex-flow: row wrap;
-    }
-    .flex {
-        flex-flow: row wrap;
-    }
-    .col-33 {width: 33%;}
-    .col-66 {width: 66%;}
-    .col-50 {width: 50%;}
-    .col-1 {width: 100%;}
-    .flex-1 {flex: 1;}
-    .flex-2 {flex: 2;}
-    .flex-3 {flex: 3;}
 }
