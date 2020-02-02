@@ -183,3 +183,7 @@ nav label {
     max-width: 100%;
     max-height:100%;
 }
+.responsive {
+    max-width: 90%;
+    height: auto;
+}
