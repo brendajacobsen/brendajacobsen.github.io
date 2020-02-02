@@ -46,7 +46,7 @@ header, main, footer {
 }
 
 nav {
-    background-color: #f1f9f9;
+    background-color: #370031;
     width: 100%;
 }
 nav ul {
@@ -61,10 +61,10 @@ nav a, nav label {
     font-size: 1.2em;
     display: block;
     padding: 1em;
-    color: #000000;
+    color: white;
     text-decoration: none;
 }
-nav a:hover {background-color: #f3dfe3;}
+nav a:hover {background-color: #EAF27C;}
 
 #content {
     margin: 0 auto;
