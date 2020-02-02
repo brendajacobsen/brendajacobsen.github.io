@@ -136,9 +136,6 @@ footer p {
 #copyright {
     flex: 2 auto;
 }
-nav label {
-    margin-left: 125px;
-}
 
 .dark {
     color: white;
@@ -152,16 +149,6 @@ nav label {
 
 .center {
     align-items: center;
-}
-
-.banner-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.banner-box img {
-    grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
-    grid-row: 1;
 }
 
 .action {
