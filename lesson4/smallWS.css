@@ -7,7 +7,7 @@ body {
     margin: 0;
     color: #23252d;
     background: #e1f2fb;
-    font-family: 'Open Sans', sans-serif, Arial;
+    font-family: 'EB Garamond', serif;
 }
 
 #logo {
@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 6px;
     line-height: 1;
     color: #e9b2bc;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
 }
 p {
     margin: 0;
@@ -40,7 +40,7 @@ p {
 }
 h2 {
     font-size: 1.8em;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
 }
 header, main, footer {
     margin: 0 12px;
