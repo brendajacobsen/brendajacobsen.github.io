@@ -191,3 +191,9 @@ footer p {
     grid-row-start: 1;
     grid-row-end: 3;
   }
+  #section-3 {
+    margin: auto;
+    max-width: 60%;
+    padding: 100px 12px;
+    text-align: center;
+}
