@@ -50,7 +50,7 @@ main, footer {
     align-items: center;
 }
 header {
-    display: ;
+    display: flex;
     max-width: 980px;
     align-items: center;
 }
