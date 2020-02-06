@@ -176,7 +176,8 @@ footer p {
     max-height:100%;
 }
 .responsive {
-    width: 80%;
+    width: 50%;
+    height: 70%;
     vertical-align: middle;
     max-width: 100%;
     height: auto;
