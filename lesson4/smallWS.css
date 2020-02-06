@@ -193,15 +193,14 @@ footer p {
     padding:.5rem;
     display: inline-block;   
 }
-.weather h3 {
-    
+.weather h3 {  
     padding:2px 0;
 }
 .weather p {
     /*background-color: white;#3D61CC;*/
     color:  black;
     font-size: 1rem;
-    
+    text-align: center;
     margin: auto;
     
 
