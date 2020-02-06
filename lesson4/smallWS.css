@@ -221,14 +221,7 @@ footer p {
     color: black;
     
 }
-.grid-container {
-    display: inline-grid;
-    grid-column-gap: 50px;
-  }
-  .grid-item {
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
+
   #section-3 {
     margin: auto;
     max-width: 60%;
