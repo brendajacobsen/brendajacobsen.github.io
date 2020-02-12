@@ -262,24 +262,6 @@ nav label {
     background-color: #CE8964;
 
 }
-.contactbox ul {
-
-}
-/*.contactinfo {
-    display: flex;
-    flex-wrap: wrap;
-}
-.contactinfo>* {
-    margin:0 10px;
-    flex: 1 1 200px;
-}
-*/
-.map {
-    /* grid-column: span 2;
-     max-width:90%;
-     margin:auto;*/
- display: none;
- }
 .contactbox img {
     grid-column: span 2;
     max-width:40%;
