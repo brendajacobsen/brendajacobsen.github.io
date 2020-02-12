@@ -273,5 +273,6 @@ nav label {
     flex-direction: row;
     margin:0;
     padding:0;
-    align-items: left;
+    align-items: right;
+    max-width:10%;
 }
