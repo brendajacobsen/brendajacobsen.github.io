@@ -271,8 +271,8 @@ nav label {
 .socialmedia {
     display:inline;
     flex-direction: row;
-    margin:0;
-    padding:0;
+    margin:1.5rem;
+    padding:1.5rem;
     align-items: right;
     max-width:20%;
 }
