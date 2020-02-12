@@ -275,4 +275,5 @@ nav label {
     padding:1.5rem;
     align-items: right;
     max-width:20%;
+    list-style-type: none;
 }
