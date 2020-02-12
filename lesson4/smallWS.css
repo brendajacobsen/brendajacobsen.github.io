@@ -248,3 +248,22 @@ footer p {
 nav label {
     margin-left: 125px;
 }
+.contactbox {
+    margin-bottom:1rem;
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+    padding: 1.25rem;
+    margin:0 -.5rem;
+    margin-bottom: -1rem;
+    text-align:left;
+    background-color: rgba(152,152,155, 0.3);
+
+}
+.contactbox img {
+    grid-column: span 2;
+    max-width:90%;
+    margin:auto;
+
+}
