@@ -263,7 +263,7 @@ nav label {
 }
 .contactbox img {
     grid-column: span 2;
-    max-width:60%;
+    max-width:40%;
     margin:auto;
 
 }
