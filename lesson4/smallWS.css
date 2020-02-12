@@ -149,6 +149,7 @@ footer {
 footer p {
     margin: 12px 0;
     align-items: center;
+    padding: 5px;
 }
 #copyright {
     flex: 2 auto;
