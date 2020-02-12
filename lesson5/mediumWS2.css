@@ -55,5 +55,11 @@
       
 
    }
+   .socialmedia {
+    grid-column: 2;
+    grid-row:3;
+   /* align-self: start;
+    justify-self:start;*/
+}
 
 }
