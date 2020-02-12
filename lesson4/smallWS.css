@@ -249,7 +249,7 @@ nav label {
     margin-left: 125px;
 }
 .contactbox {
-    margin-bottom:1rem;
+    margin-bottom:1.25rem;
     position:relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
