@@ -1,9 +1,3 @@
-const hambutton = document.querySelector(".ham");
-hambutton.addEventListener("click", toggleMenu, false);
-
-function toggleMenu() {
-  document.querySelector(".navigation").classList.toggle("responsive");
-}
 function currentDate(){
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
