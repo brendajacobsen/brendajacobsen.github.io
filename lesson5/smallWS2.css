@@ -270,7 +270,7 @@ nav label {
 
 }
 .socialmedia {
-    display: inline;
+    display: inline-block;
     flex-direction: column;
     margin:1.5rem;
     padding:1.5rem;
