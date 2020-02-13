@@ -344,9 +344,9 @@ nav label {
     grid-column:2;
 }
 .summary span {
-    text-align:left;
-    color:  white;
-    font-size: 1rem;
+    text-align:center;
+    color:  black;
+    font-size: 1.5rem;
     line-height:1.25;
     margin: 0;
     
