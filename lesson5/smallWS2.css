@@ -351,3 +351,14 @@ nav label {
     margin: 0;
     
 }
+.forecastbox {
+    
+    margin-bottom:1rem;
+    position:relative;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
