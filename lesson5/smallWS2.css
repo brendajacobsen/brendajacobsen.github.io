@@ -58,6 +58,7 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
     text-align: center;   
 }
+
 main, footer {
     display: flex;
     max-width: 980px;
@@ -315,6 +316,7 @@ nav label {
     grid-row:1;
     grid-column:1/3;
     text-align:center;
+    color:  #370031;
     
 }
 .summary p {
