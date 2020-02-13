@@ -58,7 +58,14 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
     text-align: center;   
 }
-
+.forecastbox h3 {
+    margin: 0;
+    margin-bottom: 6px;
+    line-height: 1;
+    color: #370031;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;   
+}
 main, footer {
     display: flex;
     max-width: 980px;
