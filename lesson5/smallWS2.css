@@ -270,8 +270,7 @@ nav label {
 
 }
 .socialmedia {
-    display: grid;
-    flex-direction: row;
+    grid-row-end: 3;
     margin:1.5rem;
     padding:1.5rem;
     align-items: right;
