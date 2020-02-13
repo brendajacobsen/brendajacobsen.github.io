@@ -39,6 +39,7 @@ h3,h5,h6 {
     line-height: 1;
     color: #CE8964;
     font-family: 'Fjalla One', sans-serif;
+    text-align: center;
 }
 p {
     margin: 0;
