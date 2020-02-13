@@ -1,4 +1,4 @@
-          
+@media only screen and (min-width:32.5em){       
 document.getElementById('currentDate').textContent=new Date().toLocaleDateString("en-GB", options);
 // const modoptions ={ second: "numeric", minute: "numeric", hour: "numeric", day: "numeric", month:"numeric", year: "numeric"};
 //document.getElementById('lastModified').textContent=new Date(document.lastModified);
@@ -15,5 +15,6 @@ function showBanner() {
   if (wkday == 5){
   document.getElementById("banner").classList.toggle("noshow");
  
+}
 }
 }
