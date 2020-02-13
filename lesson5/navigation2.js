@@ -16,3 +16,4 @@ function showBanner() {
   document.getElementById("banner").classList.toggle("noshow");
  
 }
+}
