@@ -39,7 +39,6 @@ h3,h5,h6 {
     line-height: 1;
     color: #CE8964;
     font-family: 'Fjalla One', sans-serif;
-    text-align: center;
 }
 p {
     margin: 0;
@@ -50,6 +49,14 @@ h2 {
     color: #CE8964;
     font-size: 1.8em;
     font-family: 'Fjalla One', sans-serif;
+}
+.forecastbox h3 {
+    margin: 0;
+    margin-bottom: 6px;
+    line-height: 1;
+    color: #CE8964;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;   
 }
 main, footer {
     display: flex;
