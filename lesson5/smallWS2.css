@@ -311,10 +311,10 @@ nav label {
 }
 .summary p {
     /*background-color: white;#3D61CC;*/
-    color:  white;
+    color:  black;
     font-size: 1rem;
     line-height:1.25;
-    text-align:right;
+    text-align:center;
     
     margin:0;  
 
