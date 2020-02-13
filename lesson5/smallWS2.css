@@ -373,9 +373,5 @@ nav label {
     clear: both;
   }
   .articleimg {
-    margin:0 auto;
-    width: 30%;
-    height: 50%;
-    vertical-align: middle;
-    max-width: 100%;
+
   }
