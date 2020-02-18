@@ -32,7 +32,7 @@ header {
     width: 55%;
     vertical-align: middle;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 #logoName{
     padding-left: 10px;
@@ -119,6 +119,7 @@ nav ul {
     padding: 0;
     margin: 0;
     font-size: 1em;
+    color: white;
 }
 
 nav ul li a {
