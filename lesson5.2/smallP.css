@@ -29,7 +29,15 @@ header {
     color: black;
 }
 
-h1,
+h1{
+    display: flex;
+    /*flex-flow: block;*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;  
+}
 footer {
     background-color: #370031;
     display: flex;
@@ -144,9 +152,7 @@ nav ul li a {
     display: block;
 }
 h3{
-    background-color:#CE8964;
-    border-radius: ;
-    color: #fff;
+    color: #CE8964;
 }
 
 
