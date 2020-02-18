@@ -1,0 +1,70 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    /*------------------------5 day forecast------------------------------------------*/
+    .forecastdiv{
+        position: relative;
+        display: block;
+    }
+    .flex {
+        margin: 10px auto;
+        position: relative;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .col {
+        flex: 1 1 100%;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        background-color: #bed;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .flex div:last-child {
+        border-right: 1px solid #333;
+    }
+    
+    .label {
+        display: block;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 1px solid #333;
+        background-color: #eee;
+    }
+    
+    .flex div img, table img {
+        border-radius: 100px;
+        padding: 5px;
+    }
+    
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+    }
+    /* Table styling and layout with no extras*/
+    table, th, td {
+        border:1px solid #333;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    
+    th {
+        font-weight: 700;
+        font-size: 15px;
+        background-color: #eee;
+    }
+    
+    td {
+        background-color: #bed;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    
+    } /*end medium */
