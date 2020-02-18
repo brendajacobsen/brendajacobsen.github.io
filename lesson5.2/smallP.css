@@ -29,7 +29,7 @@ header {
     color: black;
 }
 #logo {
-    width: 55%;
+    width: 25%;
     vertical-align: middle;
     padding-right: 30px;
     padding-left: 40px;
@@ -110,7 +110,6 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: white;
 }
 
 nav ul {
@@ -153,7 +152,7 @@ nav ul li a {
 
 .navigation a:hover {
     color: white;
-    background-color: #fff;
+    background-color: #370031;
     font-weight: 700;
 }
 
