@@ -18,7 +18,17 @@ nav ul li.active {
     background-color: #EAF27C;
 }
 
-header,
+header {
+    background-color: white;
+    display: flex;
+    /*flex-flow: block;*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+
 h1,
 footer {
     background-color: #370031;
@@ -135,7 +145,7 @@ nav ul li a {
 }
 h3{
     background-color:#CE8964;
-    border-radius: 5px;
+    border-radius: ;
     color: #fff;
 }
 
