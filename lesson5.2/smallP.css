@@ -20,7 +20,7 @@ nav ul li.active {
 
 header {
     background-color: white;
-    display: flex;
+    display: ;
     /*flex-flow: block;*/
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ header {
     color: black;
 }
 #logo {
-    width: 15%;
+    width: 25%;
     vertical-align: middle;
     padding-right: 30px;
     padding-left: 40px;
