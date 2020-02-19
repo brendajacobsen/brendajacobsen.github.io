@@ -209,6 +209,7 @@ h1, h2, p {
 
 .articleclass img{
     width: 100%;
+    float: right;
 }
 
 .articlediv {
