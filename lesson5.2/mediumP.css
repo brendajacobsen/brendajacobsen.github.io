@@ -41,7 +41,7 @@
     .flex div img, table img {
         border-radius: 100px;
         padding: 5px;
-        width: 15%;
+        max-width: 30%;
         height: auto;
     }
     
