@@ -24,19 +24,19 @@ header {
     /*flex-flow: block;*/
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Fjalla One', sans-serif;
     color: black;
 }
 #logo {
-    width: 25%;
+    width: 15%;
     vertical-align: middle;
     padding-right: 30px;
     padding-left: 40px;
 }
 #logoName{
-    padding-left: 1px;
-    margin-top: -25x;
+    padding-left: 10px;
+    margin-top: -30x;
     padding-bottom: 1px;
 }
 h1{
