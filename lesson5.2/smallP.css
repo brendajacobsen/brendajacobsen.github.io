@@ -58,6 +58,9 @@ footer {
     font-family: 'Fjalla One', sans-serif;
     color: white;
 }
+footer a {
+    color: #FFF;
+}
 header img{
     width: 55%;
 }
