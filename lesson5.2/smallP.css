@@ -21,18 +21,19 @@ nav ul li.active {
 header {
     background-color: white;
     display: flex;
-    max-width: 980px;
+    /*max-width: 980px;*/
+    text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 1em;
     font-family: 'Fjalla One', sans-serif;
     color: black;
 }
 #logo {
     width: 35%;
-    vertical-align: middle;
+    /*vertical-align: middle;
     padding-right: 10px;
-    padding-left: 40px;
+    padding-left: 40px;*/
 }
 #logoName{
     padding-left: 10px;
