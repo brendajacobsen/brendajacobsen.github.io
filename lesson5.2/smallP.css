@@ -297,10 +297,10 @@ h1, h2, p {
 
 /*-----------------------------------------------pop up-----------------------------------------------------------------------------*/
 #popup {
-    background-color: #0B0033;
+    background-color: #0496FF;
     text-align: center;
     padding: 1em;
-    color: #fff;}
+    color: black;}
 .hide {
     display: none;
 }
