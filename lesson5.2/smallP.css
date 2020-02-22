@@ -264,35 +264,54 @@ h1, h2, p {
     display: none;
 }
 
-/*------------------article--------------------------------------*/
+/*------------------article + contact--------------------------------------*/
 
-.articlediv img {
-    width: 33%;
+.container {
+    background-color: rgba(0, 0, 0, 10%);
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.imgContainer {
+    padding-top: 0;
+    text-align: center;
+}
+.responsiveImg {
+    max-width: 95%;
+}
+.item {
+    flex-basis: 50%;
 }
 
-.articlediv {
-    border-radius: 1px;
+.right {
+    margin-left: 2%;
+}
+.left {
+    display: block;
+}
+.inlne {
+    display: inline;
 }
 
-
-.articleclass img{
-    width: 100%;
-    float: right;
+.left {
+    display: none;
 }
 
-.articlediv {
-    background-color: #ccc;
+.contact {
+    text-align: center;
 }
-/*-------------------------------------------contact info--------------------------------------------------------------*/
-.contactclass img {
-    width: 100%;
+
+.icons {
+    max-width: 12%;
+    margin-right: 0.2em;
 }
-.contactdiv {
-    background-color: #bbb;
-}
- .contactclass ul li{
-     list-style: none;
- }
 
 
 /*-----------------------------------------------pop up-----------------------------------------------------------------------------*/
