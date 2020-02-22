@@ -300,10 +300,10 @@ h1, h2, p {
     display: inline;
 }
 
-.left {
+/*.left {
     display: none;
 }
-
+*/
 .contact {
     text-align: center;
 }
