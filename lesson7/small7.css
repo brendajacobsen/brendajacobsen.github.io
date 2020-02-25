@@ -170,9 +170,38 @@ nav ul li a {
 h3{
     color: #CE8964;
 }
+/*-----------------------------------------------grid gallery-----------------------------------------------------------------------------*/
+figure {
+    text-align: center;
+    box-shadow: 0 0 5px #323232;
+}
 
+figcaption {
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 0.9rem;
+    font-style: italic;
+}
 
+figure img {
+    min-width: 300px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
 
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+.responsiveImg {
+    max-width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 
 /*-----------------------------------------------pop up-----------------------------------------------------------------------------*/
 #popup {
