@@ -171,11 +171,16 @@ h3{
     color: #CE8964;
 }
 /*-----------------------------------------------grid gallery-----------------------------------------------------------------------------*/
+main section {
+    margin: 0 3% 0 3%;
+}
 figure {
     text-align: center;
     box-shadow: 0 0 5px #323232;
 }
-
+figure:hover {
+    box-shadow: 0 0 20px rgb(107, 106, 106);
+}
 figcaption {
     padding: 0.5rem;
     text-align: left;
