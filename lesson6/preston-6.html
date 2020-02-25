@@ -44,7 +44,12 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="herodiv">
-            <img src="images/prestonIMG.jpg" alt="hero pic">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/img1-250.jpg">
+                <source media="(max-width: 700px)" srcset="images/image2-400.jpg">
+                <img src="images/img3-600.jpg" alt="Preston Town">
+
+            </picture>
            
             <div class="summary"><h3> Weather Summary </h3>
                 <p>Currently:</p><span id="current">Cloudy</span>
