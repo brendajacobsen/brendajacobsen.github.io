@@ -84,9 +84,11 @@ footer {
 }
 main {
     text-align: center;
+    font-family: 'EB Garamond', serif ;
     font-size: 1em;
     margin: 1em auto;
     padding: .5rem;
+    
 }
 header,
 nav,
