@@ -329,7 +329,10 @@ h1, h2, p {
     text-align: center;
     font-family: 'EB Garamond', serif ;
 }
-
+.contact p {
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+}
 .icons {
     max-width: 12%;
     margin-right: 0.2em;
