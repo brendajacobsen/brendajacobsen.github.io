@@ -308,6 +308,7 @@ h1, h2, p {
 }
 .item {
     flex-basis: 50%;
+    font-family: 'EB Garamond', serif ;
 }
 
 .right {
@@ -326,6 +327,7 @@ h1, h2, p {
 */
 .contact {
     text-align: center;
+    font-family: 'EB Garamond', serif ;
 }
 
 .icons {
