@@ -75,7 +75,6 @@ header img{
     font-size: .75rem;
 }
 
-main,
 footer {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
@@ -83,7 +82,12 @@ footer {
     margin: 1em auto;
     padding: .5rem;
 }
-
+main {
+    text-align: center;
+    font-size: 1em;
+    margin: 1em auto;
+    padding: .5rem;
+}
 header,
 nav,
 main,
@@ -110,6 +114,7 @@ nav {
     align-items: center;
     padding: 10px;
     color: white;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 nav button {
