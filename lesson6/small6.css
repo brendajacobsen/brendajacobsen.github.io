@@ -332,6 +332,7 @@ h1, h2, p {
 .contact p {
     text-align: center;
     font-family: 'EB Garamond', serif ;
+    font-weight:bold;
 }
 .icons {
     max-width: 12%;
