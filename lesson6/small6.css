@@ -49,7 +49,8 @@ h1{
     align-items: center;
     padding: 10px;
     font-family: 'Fjalla One', sans-serif;
-    color: black;  
+    color: black;
+    font-weight:bold;  
 }
 footer {
     background-color: #370031;
@@ -180,6 +181,7 @@ nav ul li a {
 h3{
     color: #CE8964;
     font-family: 'Fjalla One', sans-serif;
+    font-weight:bold;
 }
 
 /* --------------------------------- hero section ----------------------------------------------------*/
@@ -194,6 +196,7 @@ h3{
 h1, h2, p {
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
+    font-weight:bold;
 }
 
 /*.herosec {
@@ -232,6 +235,7 @@ h1, h2, p {
     text-align:center;
     color:  #CE8964;
     font-family: 'Fjalla One', sans-serif;
+    font-weight:bold;
 }
 .summary p {
     /*background-color: white;#3D61CC;*/
