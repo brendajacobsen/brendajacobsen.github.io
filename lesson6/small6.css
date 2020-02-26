@@ -176,9 +176,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'EB Garamond', serif ;
-    color: #;
+    color: black;
     height: 100%;
 }
+
 
 /* --------------------------------- hero section ----------------------------------------------------*/
 .herodiv img {
