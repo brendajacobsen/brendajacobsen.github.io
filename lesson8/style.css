@@ -11,35 +11,29 @@ table#t01 tr:nth-child(even) {
     background-color: black;
     text-align: center;
   }
+  table {
+    
+    box-shadow: 10px 10px 10px #628ca6;
+    font-family: "Ubuntu", sans-serif;
+   /* background-color: #e7f0ed;*/
+    border-collapse: collapse;
+    
+}
+tbody {
+    background-color:#e7f0ed;
+    font-size:19px;
+}
+
 table, th, td {
     border:1px solid #333;
     border-collapse: collapse;
     padding: 5px;
-    text-align: center;
 }
-.tableclass {
-    position: relative;
-    display: block;
+th, td {
+    padding: 8px 12px;
+    text-align:center;
 }
-.flex {
-    margin: 10px auto;
-    position: relative;
-}
-.flex {
-    display: flex;
-    flex-direction: row;
-}
-
-.col {
-    flex: 1 1 100%;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    background-color: white;
-    font-size: 13px;
-    text-align: center;
-}
-
-.flex div:last-child {
-    border-right: 1px solid #333;
+.r2 {
+    background-color: #628ca6;
+    color:white;
 }
