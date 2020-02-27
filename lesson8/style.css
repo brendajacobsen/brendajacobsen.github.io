@@ -11,7 +11,8 @@
     box-shadow: 10px 10px 10px #628ca6;
     font-family: "Ubuntu", sans-serif;
     border-collapse: collapse;
-    
+    margin-left:auto;
+    margin-right:auto;
 }
 tbody {
     background-color:#e7f0ed;
