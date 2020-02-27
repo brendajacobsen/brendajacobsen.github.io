@@ -24,7 +24,7 @@ tbody {
     font-size:19px;
 }
 
-table, th, td {
+table, thead, th, td {
     border:1px solid #333;
     border-collapse: collapse;
     padding: 5px;
@@ -32,6 +32,23 @@ table, th, td {
 th, td {
     padding: 8px 12px;
     text-align:center;
+}
+tbody tr:nth-child(even){
+    background-color:#e7ffed;
+    
+}
+thead {
+    background-color: #7fb9c2;
+    font-size: 30px;
+   font-weight: bold;
+    
+}
+tfoot {
+    background-color: #7fb9c2;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 10px;
+    
 }
 .whitet {
     background-color: #628ca6;
