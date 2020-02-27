@@ -51,3 +51,6 @@ tfoot {
     background-color: #628ca6;
     color:white;
 }
+strong {
+    font-weight: bold;
+  }
