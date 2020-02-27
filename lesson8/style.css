@@ -16,7 +16,7 @@
     width:150px;
 }
 tbody {
-    background-color:#e7f0ed;
+    background-color:#e7ffed;
     font-size:19px;
 }
 
@@ -32,7 +32,7 @@ th {
     font-weight: bold;
 }
 tbody tr:nth-child(even){
-    background-color:#e7ffed;
+    background-color:#e7f0ed;
     
 }
 thead {
