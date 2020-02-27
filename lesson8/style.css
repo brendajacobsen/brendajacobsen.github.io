@@ -6,16 +6,10 @@ table#t01 tr:nth-child(even) {
     background-color: #e7f0ed;
     text-align: center;
   }
-  table#t01 th {
-    color: white;
-    background-color: black;
-    text-align: center;
-  }
   table {
     
     box-shadow: 10px 10px 10px #628ca6;
     font-family: "Ubuntu", sans-serif;
-   /* background-color: #e7f0ed;*/
     border-collapse: collapse;
     
 }
@@ -25,9 +19,8 @@ tbody {
 }
 
 table, thead, th, td {
-    border:1px solid #333;
+    border:2px solid #b9bbbb;
     border-collapse: collapse;
-    padding: 5px;
 }
 th, td {
     padding: 8px 12px;
