@@ -1,19 +1,45 @@
 table#t01 tr:nth-child(even) {
     background-color: #e7ffed;
+    text-align: center;
   }
   table#t01 tr:nth-child(odd) {
     background-color: #e7f0ed;
+    text-align: center;
   }
   table#t01 th {
     color: white;
     background-color: black;
+    text-align: center;
   }
 table, th, td {
     border:1px solid #333;
     border-collapse: collapse;
     padding: 5px;
+    text-align: center;
 }
 .tableclass {
     position: relative;
     display: block;
+}
+.flex {
+    margin: 10px auto;
+    position: relative;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex: 1 1 100%;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    background-color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+.flex div:last-child {
+    border-right: 1px solid #333;
 }
