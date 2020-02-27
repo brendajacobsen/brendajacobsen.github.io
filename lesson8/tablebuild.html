@@ -8,21 +8,18 @@
     <meta name="description" content="Table Build Practice">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    
-
 
 </head>
 <body>
-    <main>
-        <h1>Table</h1>
-        <div class= tableclass>
-        <table id="t01">
+
+    <table>
+        <thead>
             <tr>
-              
               <th colspan="3">ACME Wildwest</th>
-              
             </tr>
-            <tr class="r2">
+            </thead> 
+            
+            <tr class="whitet">
               <th>Period</th>
               <th>Sales</th>
               <th>Sales Goal</th>
@@ -45,24 +42,24 @@
             <tr>
                 <td>November</td>
                 <td>$8,610</td>
-                <td style="background-color:#628ca6">$7,500</td>
+                <td class="whitet">$7,500</td>
               </tr>
               <tr>
                 <td>Black Friday</td>
-                <td>$3,200</td>
+                <td colspan="2">$3,200</td>
               </tr>
               <tr>
                 <td>December</td>
                 <td>$6,820</td>
                 <td>$7,500</td>
               </tr>
+            </tbody>
+            <tfoot>
               <tr>
                 <td style="background-color:#7fb9c2">Compiled 12.20.2020 by bRauls</td>
               </tr>
+            </tfoot>
           </table>
-        </div> 
-    </main>
-
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
     <script>WebFont.load({google: {families:['Ubuntu']}});</script>
 </body>
