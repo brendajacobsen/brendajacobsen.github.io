@@ -27,6 +27,9 @@ th, td {
     padding: 8px 12px;
     text-align:center;
 }
+th {
+    font-weight: bold;
+}
 tbody tr:nth-child(even){
     background-color:#e7ffed;
     
