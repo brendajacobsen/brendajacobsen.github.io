@@ -8,4 +8,12 @@ table#t01 tr:nth-child(even) {
     color: white;
     background-color: black;
   }
-  
+  table, th, td {
+    border:1px solid #333;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.tableclass {
+    position: relative;
+    display: block;
+}
