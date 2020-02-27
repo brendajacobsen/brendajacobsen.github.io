@@ -1,5 +1,5 @@
 table#t01 tr:nth-child(even) {
-    background-color: #e7ffed ;
+    background-color: #e7ffed;
   }
   table#t01 tr:nth-child(odd) {
     background-color: #e7f0ed;
