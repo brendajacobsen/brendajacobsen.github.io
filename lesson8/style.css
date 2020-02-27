@@ -1,11 +1,11 @@
-table#t01 tr:nth-child(even) {
+/*table#t01 tr:nth-child(even) {
     background-color: #e7ffed;
     text-align: center;
   }
   table#t01 tr:nth-child(odd) {
     background-color: #e7f0ed;
     text-align: center;
-  }
+  }*/
   table {
     
     box-shadow: 10px 10px 10px #628ca6;
