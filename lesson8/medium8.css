@@ -41,5 +41,25 @@
         border-right: 1px solid rgba(0, 0, 0, .3);
         padding: .6rem 1rem;
     }
+    form label.top input, textarea, select, .submitBtn {
+        max-width: 70%;
+    }
+
+    .submitBtn {
+        margin: 0 0 1rem .75rem;
+    }
+
+    .textCenter {
+        text-align: left;
+    }
+
+    .thanksbox {
+        max-width: 60%;
+        margin: 2rem auto;
+    }
+    
+    .thanksbox button {
+        width: 50%;
+    }
     
 }
