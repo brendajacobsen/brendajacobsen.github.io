@@ -240,7 +240,32 @@ input:required:invalid {
 .textCenter {
     text-align: center;
 }
+/*--------------------------------Thank You Box-------------------------------*/
+.thanksbox {
+    max-width: 70%;
+    padding: 2rem;
+    background-color: #EEE;
+    text-align: center;
+    margin: 1rem auto;
+}
 
+.thanksbox img {
+    max-width: 90%;
+}
+
+.thanksbox button {
+    padding: 1rem;
+    width: 70%;
+    margin: 0.5rem;
+    color: #FFF;
+    background-color: #111a62;
+    border-radius: 5px;
+}
+
+.thanksbox button a {
+    text-decoration: none;
+    color: #FFF;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
