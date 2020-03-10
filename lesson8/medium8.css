@@ -65,7 +65,7 @@
     }
 
     form label.top input, textarea, select, .submitBtn {
-        max-width: 70%;
+        max-width: 90%;
     }
     .textCenter {
         text-align: center;
