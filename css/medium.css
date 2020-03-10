@@ -15,4 +15,7 @@ h1 {
 header, footer {
     border-radius: 5px;
 }
+.textCenter {
+    text-align: center;
+}
 }
