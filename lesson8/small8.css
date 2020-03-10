@@ -222,12 +222,12 @@ textarea {
     width: 90%;
     margin: 0 0 1rem 0;
     color: #FFF;
-    background-color: #111a62;
+    background-color: #CE8964;
     border-radius: 5px;
 }
 
 .submitBtn:hover, .card button:hover {
-    background-color: #667DFF;
+    background-color: #EAF27C;
 }
 
 input:required:valid {
