@@ -205,6 +205,60 @@ h3{
 .cards img {
     max-width: 90%;
 }
+/*------------------article + contact--------------------------------------*/
+
+.container {
+    background-color: rgba(0, 0, 0, 10%);
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.imgContainer {
+    padding-top: 0;
+    text-align: center;
+}
+.responsiveImg {
+    max-width: 95%;
+}
+.item {
+    flex-basis: 50%;
+    font-family: 'EB Garamond', serif ;
+}
+
+.right {
+    margin-left: 2%;
+}
+.left {
+    display: block;
+}
+.inlne {
+    display: inline;
+}
+
+/*.left {
+    display: none;
+}
+*/
+.contact {
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+}
+.contact p {
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+    font-weight:bold;
+}
+.icons {
+    max-width: 12%;
+    margin-right: 0.2em;
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
