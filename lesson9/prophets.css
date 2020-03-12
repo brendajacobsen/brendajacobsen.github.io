@@ -6,7 +6,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-    background-color: #909ae7;
+    background-color: #DCDCDC;
     padding: 20px;
 }
 
@@ -14,7 +14,7 @@ section {
     background-color: #6495ED;
     padding: 10px;
     text-align: center;
-    box-shadow: 5px 5px 10px #DCDCDC;
+    box-shadow: 5px 5px 10px #282b40;
     border: 2px solid #00008B;
 }
 
