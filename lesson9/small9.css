@@ -170,101 +170,37 @@ nav ul li a {
 h3{
     color: #CE8964;
 }
-/*-----------------------------------------------form-----------------------------------------------------------------------------*/
-main section {
-    margin: 0 3% 0 3%;
+/*-----------------------------------------------cards-----------------------------------------------------------------------------*/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 1rem 3%;
 }
-fieldset {
-    margin: 1rem 0;
-    padding: 1rem;
-    border: 2px solid #EAF27C;
-}
-
-fieldset legend {
-    margin: 0.25rem;
-    padding: .5rem;
-    font-weight: bold;
-}
-
-form label.top, label.sbs, form div {
-    display: block;
-    margin: .25rem;
-    padding: .5rem 0;
-    font-size: .9rem;
-}
-
-form label.top input, textarea, select {
-    display: block;
-    padding: .75rem;
-    width: 90%;
-    box-sizing: content-box;
-    margin-top: .3rem;
-    border-radius: 5px;
-}
-form label.sbs {
-    display: block;
-}
-.req {
-    font-size: .7rem;
-    color: #c00000;
-    margin-top: 0;
-}
-textarea {
-    height: 150px;
-}
-
-.app {
-    -webkit-appearance: none;
-}
-
-.submitBtn {
-    padding: 1rem;
-    width: 90%;
+.cards section {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgba(0, 0, 0, 10%);
+    padding-bottom: 1rem;
     margin: 0 0 1rem 0;
-    color: #FFF;
-    background-color: #CE8964;
-    border-radius: 5px;
+    align-items: center;
 }
 
-.submitBtn:hover, .card button:hover {
-    background-color: #EAF27C;
+.cards h2 {
+    margin-bottom: .25rem;
 }
 
-input:required:valid {
-    border-left: 5px solid #ddffdd;
+.cards strong {
+    font-size: .8rem;
 }
 
-input:required:invalid {
-    border-left: 5px solid #c00000;
-}
-.textCenter {
-    text-align: center;
-}
-/*--------------------------------Thank You Box-------------------------------*/
-.thanksbox {
-    max-width: 70%;
-    padding: 2rem;
-    background-color: #EEE;
-    text-align: center;
-    margin: 1rem auto;
+.col-2 {
+    order: -1;
+    padding-top: 1rem;
 }
 
-.thanksbox img {
-    max-width: 30%;
-}
-
-.thanksbox button {
-    padding: 1rem;
-    width: 70%;
-    margin: 0.5rem;
-    color: #FFF;
-    background-color: #832232;
-    border-radius: 5px;
-}
-
-.thanksbox button a {
-    text-decoration: none;
-    color: #FFF;
+.cards img {
+    max-width: 90%;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
