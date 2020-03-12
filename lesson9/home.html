@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=5">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <title>My Weather Stylist</title>
+        <meta name="author" content="Brenda Jacobsen">
+        <meta name="description" content="An Idaho weather site">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="small8.css">
+        <link rel="stylesheet" type="text/css" href="medium8.css">
+        <link rel="stylesheet" type="text/css" href="large8.css">
+                
+    </head>
+    
+    <body>
+
+        <header>
+            <div id="logo">
+             <img src="images/redlogoWS.png" alt="logo image">
+            </div>
+             <section id="logoName">
+                 <h1>My Weather Stylist</h1>
+                 <h3>Is your outfit weatherproof?</h3>
+             </section>
+            
+         </header>
+
+         <nav>
+            <ul class="navigation responsive">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="../lesson6/preston-6.html">Preston, ID</a></li>
+                <li><a href="#"> Soda Springs</a></li>
+                <li><a href="#"> Fish Haven</a></li>
+                <li><a href="lesson8/stormcenter.html"> Storm Center</a></li>
+                <li><a href="../lesson7/gallery.html"> Gallery</a></li>
+            </ul>
+        
+        </nav>
+
+        <main>
+            <div class="cards"></div>
+            <section class="grid container">
+                <div class="imgContainer">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="assets/Preston-ArticleLow.jpg">
+                        <img class="responsiveImg" src="assets/Preston-Article.jpg" alt="Picnic at the park">
+                    </picture>
+                </div>
+                <div class="right">
+                    <h3>Article Title</h3>
+                    <p id="articleAuthor">By ******* *****</p>
+                    <article class="inlne">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in ultricies neque, et rutrum lectus. 
+                        Vivamus suscipit justo eget hendrerit suscipit. Aliquam interdum pulvinar nisi eu convallis. Vivamus sed 
+                        interdum nunc. Suspendisse non quam a urna ultricies lacinia et ac ligula. Sed quis sem eget ipsum mollis 
+                        ullamcorper sed a turpis. Etiam congue mollis euismod. Ut vel sem eget ipsum pellentesque dapibus. Aliquam 
+                        vitae orci urna. 
+                    </article><a href="#">Continue reading the article...</a>
+                </div>
+            </section>
+
+            <section class="container">
+                <div class="grid">
+                    <div class="left imgContainer item">
+                        <img class="responsiveImg" src="images/map_Preston1.jpg" alt="map of Preston">
+                    </div>
+                    <div class="contact item">
+                        <h3>My Weather Stylist</h3>
+                        <p>4444  PPP Road</p>
+                        <p>Preston, ID 88888</p>
+                        <br>
+                        <p>&#9743; 111-111-1111</p>
+                        <p>&#9743; 222-222-2222</p>
+                        <p>
+                            <a href="https://www.instagram.com/" class="iconsLink"><img class="icons" src="images/instagram2.png" alt="Instagram icon"></a>
+                            <a href="https://www.facebook.com/" class="iconsLink"><img class="icons" src="images/Facebook2.png" alt="Facebook icon"></a>
+                            <a href="https://www.youtube.com/" class="iconsLink"><img class="icons" src="images/Youtube2.png" alt="Youtube icon"></a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+           
+        </main>
+
+        <footer>
+            &copy;<span id="currentdate">   </span><span>   My Weather Stylist  | <a href="../index.html">Brenda Jacobsen</a>  |  </span>  <br>
+            <span id="lastModified"></span>
+        </footer>
+        <script src="javascript.js"></script>
+    <script src="currentdate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>WebFont.load({google: {families:['Ubuntu']}});</script>
+    </body>
+</html>
