@@ -11,11 +11,11 @@ body {
 }
 
 section {
-    background-color: #F2EFDF;
+    background-color: #6495ED;
     padding: 10px;
     text-align: center;
-    box-shadow: 5px 5px 10px #282b40;
-    border: 2px solid #03318C;
+    box-shadow: 5px 5px 10px #DCDCDC;
+    border: 2px solid #00008B;
 }
 
 header,
@@ -31,7 +31,7 @@ img {
 }
 
 footer {
-    background-color: #282b40;
+    background-color: #F4A460;
     text-align: center;
     color: #F1F2EC;
     width: 100%;
