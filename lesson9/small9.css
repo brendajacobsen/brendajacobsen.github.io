@@ -179,6 +179,7 @@ h3{
     grid-template-columns: 1fr;
     text-align: center;
     margin: 1rem 3%;
+    font-family: 'EB Garamond', serif ;
 }
 .cards section {
     display: grid;
@@ -204,6 +205,10 @@ h3{
 
 .cards img {
     max-width: 90%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #CE8964;
 }
 /*------------------article + contact--------------------------------------*/
 
