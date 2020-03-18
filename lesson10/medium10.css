@@ -1,72 +1,67 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
+ /*------------------------hero------------------------------------------*/
+ #herosec {
+    position: relative;
+}
 
+#herosec img {
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+#summary {
+    height: 180px;
+    width: 180px;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+#summary h3 {
+    font-size: 1.1em;
+}
+
+#summary span {
+    margin: 0;
+    font-size: 0.9rem;
+}
     /*------------------------5 day forecast------------------------------------------*/
-    .forecastdiv{
-        position: relative;
+    .forecast {
         display: block;
-    }
-    .flex {
-        margin: 10px auto;
-        position: relative;
-    }
-    .flex {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .col {
-        flex: 1 1 100%;
-        border-top: 1px solid #333;
-        border-bottom: 1px solid #333;
-        border-left: 1px solid #333;
-        background-color: white;
-        font-size: 13px;
         text-align: center;
+        margin-bottom: 2rem;
     }
     
-    .flex div:last-child {
-        border-right: 1px solid #333;
-    }
-    
-    .label {
-        display: block;
-        padding: 5px;
-        font-weight: 700;
-        font-size: 15px;
-        border-bottom: 1px solid #333;
-        background-color: #eee;
-    }
-    
-    .flex div img, table img {
-        border-radius: 100px;
-        padding: 5px;
-        max-width: 25%;
-        height: auto;
-    }
-    
-    .data {
-        display: block;
-        padding: 0 5px 5px;
-    }
-    /* Table styling and layout with no extras*/
-    table, th, td {
-        border:1px solid #333;
-        border-collapse: collapse;
-        padding: 5px;
-    }
-    
-    th {
-        font-weight: 700;
-        font-size: 15px;
-        background-color: #eee;
-    }
-    
-    td {
-        background-color: #bed;
-        font-size: 13px;
+    .flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         text-align: center;
+        border-right: 2px solid #EAF27C;
     }
     
+    .Day {
+        background-color: #370031;
+        color: #FFF;
+        padding: 0.4em;
+        border-top: 2px solid #EAF27C;
+        border-bottom: 1px solid #EAF27C;
+        border-left: 2px solid #EAF27C;
+    }
     
-    } /*end medium */
+    .DayContent {
+        border-top: 1px solid #EAF27C;
+        border-bottom: 2px solid #EAF27C;
+        border-left: 2px solid #EAF27C;
+        padding-top: 1em;
+    }
+
+    .DayContent p {
+        padding-bottom: 1em;
+        margin-bottom: 0;
+    }
+    
+    .DayContent img{
+        max-width: 50%;
+    }
+}
