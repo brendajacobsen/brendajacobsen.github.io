@@ -1,3 +1,23 @@
+@media only screen and (min-width: 55em){
+
+    /*-------- Hero Section-------- */
+
+    #summary {
+        height: 200px;
+        width: 200px;
+        top: 2rem;
+        left: 3rem;
+    }
+    
+    #summary h3 {
+        font-size: 1.2em;
+    }
+    
+    #summary span {
+        margin: 0;
+        font-size: 1rem;
+    }
+}
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
