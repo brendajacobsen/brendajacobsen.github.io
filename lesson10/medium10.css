@@ -1,11 +1,11 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
  /*------------------------hero------------------------------------------*/
- #herosec {
+ .herodiv {
     position: relative;
 }
 
-#herosec img {
+.herodiv img {
     margin: auto;
     max-width: 100%;
     margin-bottom: 2rem;

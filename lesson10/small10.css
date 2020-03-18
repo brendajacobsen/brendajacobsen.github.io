@@ -185,15 +185,16 @@ h3{
 }
 
 /* --------------------------------- hero section ----------------------------------------------------*/
-#herosec {
+/*#herosec {
     position: relative;
     margin-bottom: 0.4em;
-}
+}*/
 .herodiv {
-    margin: 10px auto;position: relative;
+    margin: 10px auto;
+    position: relative;
 }
 
-#herosec img {
+.herodiv img {
     margin: auto;
     max-width: 100%;
     margin-bottom: 1rem;

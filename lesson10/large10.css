@@ -63,11 +63,11 @@
     }
 
  /*------------------------hero------------------------------------------*/
- #herosec {
+ .herodiv {
     position: relative;
 }
 
-#herosec img {
+#herodiv img {
     margin: auto;
     max-width: 100%;
     margin-bottom: 2rem;
