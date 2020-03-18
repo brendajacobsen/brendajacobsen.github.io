@@ -47,7 +47,7 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="herodiv">
+        <section id="herosec">
             <picture>
                 <source media="(max-width: 400px)" srcset="images/img1-250.jpg">
                 <source media="(max-width: 700px)" srcset="images/medium.jpg">
@@ -55,23 +55,20 @@
 
             </picture>
            
-            <div class="summary"><h3> Weather Summary </h3>
-                <p>Currently:</p><span id="current">Cloudy</span>
-                <p>Temperature:</p><span> <span id="temp"> 50 </span> &#8457;</span>
-                <p>Wind Chill:</p><span> <span id="windchill"> </span> &#8457;</span>
-                <p>Humidity:</p><span id="humidity">76%</span>
-                <p>Wind Speed:</p><span><span id="windspeed">12</span> mph</span>
+            <div id="summary"><h3> Weather Summary </h3>
+                <span class="row1">Currently: </span><span class="row1-1" id="valCurrent"></span>
+                    <span class="row1">High: </span><div class="row1-1"><span id="valHigh"></span><span> &#8457;</span></div>
+                    <span class="row1">Wind Chill: </span><div class="row1-1"><span id="valChill"></span><span id="windUnit"> &#8457;</span></div>
+                    <span class="row1">Humidity: </span><div class="row1-1"><span id="valHumid"></span><span>%</span></div>
+                    <span class="row1">Wind Speed: </span><div class="row1-1"><span id="valWind"></span><span>mph</span></div>
             </div>
-        </div>
-        <div class="forecastdiv">
-           
-            <section class="forecastclass">
-                <h3>5 Day Forecast </h3>
-                <div class="flex">
-                    
+        </section>
+        <section class="forecast">
+                <h3>5 Day Forecast</h3>
+                <div class="flex">    
                 </div>
-            </section>
-        </div>
+            
+        </section>
         <section class="container">
             <div class="grid">
                 <div class="imgContainer item">
