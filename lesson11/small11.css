@@ -227,10 +227,17 @@ h3{
 #summary .row1-1 {
     grid-column: 2 / -1;
 }
-#summary span {
+/*#summary span {
     margin: 0;
     padding: 0.1rem;
     font-size: 0.8rem;
+}*/
+#summary span {
+    text-align:center;
+    color:  black;
+    font-size: 1rem;
+    line-height:1.25;
+    margin: 0;
 }
 /*
 #summary {
