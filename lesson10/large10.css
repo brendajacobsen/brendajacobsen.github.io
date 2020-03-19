@@ -70,9 +70,9 @@
 #herodiv img {
     margin: auto;
     max-width: 100%;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;
     height: auto;
-    width: auto;
+    width: auto;*/
 }
 
 /*----------------------------------------------------------article-------------------------------------------------------------*/
