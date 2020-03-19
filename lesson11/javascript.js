@@ -15,7 +15,7 @@ const month = ["January", "February", "March", "April", "May", "June", "July", "
 const week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 /*-----------------Weather Data------------------*/
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=35b12c8d999fdda2699d5d2204b76ea4";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=35b12c8d999fdda2699d5d2204b76ea4";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -33,7 +33,7 @@ fetch(apiURL)
 
 /*-----------------Forecast Data------------------*/
 
-const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=35b12c8d999fdda2699d5d2204b76ea4";
+const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=35b12c8d999fdda2699d5d2204b76ea4";
 
 fetch(apiForecastURL)
   .then((response) => response.json())
