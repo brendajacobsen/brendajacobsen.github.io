@@ -1,0 +1,350 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=EB Garamond");
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*------------Main Page Elements (header, footer, nav, main,body)-----------------------------*/
+nav ul li.active {
+    color: #ccc;
+}
+.active {
+    background-color: #CE8964;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    /*max-width: 980px;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+#logo {
+    width: 30%;
+    /*vertical-align: middle;
+    padding-right: 10px;
+    padding-left: 40px;*/
+}
+#logoName{
+    padding-left: 10px;
+    margin-top: -30x;
+    padding-bottom: 1px;
+}
+h1{
+    display: flex;
+    /*flex-flow: block;*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-weight:bold;  
+}
+footer {
+    background-color: #370031;
+    display: flex;
+    /*flex-flow: block;*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+}
+footer a {
+    color: #FFF;
+}
+header img{
+    width: 55%;
+}
+.motto {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: -10px;
+    margin-left: -30px;
+    font-style: italic;
+    font-size: .75rem;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+    margin: 1em auto;
+    padding: .5rem;
+}
+main {
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+    font-size: 1em;
+    margin: 1em auto;
+    padding: .5rem;
+    
+}
+header,
+nav,
+main,
+footer {
+    margin: 1em auto;
+    font-family: 'Fjalla One', sans-serif;
+}
+main {
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+    max-width: 960px;
+    margin:0 auto;
+}
+
+main ul,
+main li {
+    text-align: left;
+}
+
+nav {
+    background-color: #370031;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    color: white;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.navigation {
+
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    color: white;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #370031;
+    font-weight: 700;
+}
+
+
+.responsive li {
+    display: block;
+}
+h3{
+    color: #CE8964;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight:bold;
+}
+
+/* --------------------------------- hero section ----------------------------------------------------*/
+/*#herosec {
+    position: relative;
+    margin-bottom: 0.4em;
+}*/
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+.herodiv img {
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+#summary {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .25rem;
+    height: 130px;
+    width: 150px;
+    background-color: #EAF27C;
+    padding: .75 rem;
+    top: 15px;
+    left: 25px;
+    box-shadow: 0 0 30px #111;   
+}
+#summary h3 {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / 3;
+    margin: .25rem .5rem;
+    padding:.5px 0;
+    font-size: 0.95em;
+    color:  #CE8964;
+}
+#summary .row1 {
+    grid-column: 1;
+}
+#summary .row1-1 {
+    grid-column: 2 / -1;
+}
+#summary span {
+    margin: 0;
+    padding: 0.1rem;
+    font-size: 0.8rem;
+}
+/*
+#summary {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr;
+    grid-column-gap: 0.3em;
+    height: 130px;
+    width: 150px;
+    background-color: #EAF27C;
+    padding: 0.5rem 1em;
+    top: 1rem;
+    left: 1rem;
+    box-shadow: 0 0 30px #111;
+}
+#summary h3 {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / -1;
+    margin: 0;
+    margin-top: 0.2rem;
+    font-size: 0.95em;
+    color:  #CE8964;
+}
+#summary .row1 {
+    grid-column: 1;
+}
+#summary .row1-1 {
+    grid-column: 2 / -1;
+}
+#summary span {
+    margin: 0;
+    padding: 0.1rem;
+    font-size: 0.8rem;
+}
+*/
+/*---------------------------------------forecast-----------------------------------------------------*/
+.forecast {
+    display: none;
+}
+
+/*------------------article + contact--------------------------------------*/
+
+.container {
+    background-color: rgba(0, 0, 0, 10%);
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.imgContainer {
+    padding-top: 0;
+    text-align: center;
+}
+.responsiveImg {
+    max-width: 95%;
+}
+.item {
+    flex-basis: 50%;
+    font-family: 'EB Garamond', serif ;
+}
+
+.right {
+    margin-left: 2%;
+}
+.left {
+    display: block;
+}
+.inlne {
+    display: inline;
+}
+
+/*.left {
+    display: none;
+}
+*/
+.contact {
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+}
+.contact p {
+    text-align: center;
+    font-family: 'EB Garamond', serif ;
+    font-weight:bold;
+}
+.icons {
+    max-width: 12%;
+    margin-right: 0.2em;
+}
+
+
+/*-----------------------------------------------pop up-----------------------------------------------------------------------------*/
+#popup {
+    background-color: #0496FF;
+    text-align: center;
+    padding: 1em;
+    color: black;}
+.hide {
+    display: none;
+}
+ 
+.show {
+    display: block;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
