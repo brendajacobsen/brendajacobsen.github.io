@@ -39,4 +39,3 @@ fetch(requestURL)
     }
     
   });
-https://brocow.github.io/lesson11/js/windchill.js
