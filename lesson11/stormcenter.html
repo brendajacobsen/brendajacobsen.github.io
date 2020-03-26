@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=5">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <title>My Weather Stylist</title>
+        <meta name="author" content="Brenda Jacobsen">
+        <meta name="description" content="An Idaho weather site">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="small8.css">
+        <link rel="stylesheet" type="text/css" href="medium8.css">
+        <link rel="stylesheet" type="text/css" href="large8.css">
+                
+    </head>
+    
+    <body>
+
+        <header>
+            <div id="logo">
+             <img src="images/redlogoWS.png" alt="logo image">
+            </div>
+             <section id="logoName">
+                 <h1>My Weather Stylist</h1>
+                 <h3>Is your outfit weatherproof?</h3>
+             </section>
+            
+         </header>
+
+         <nav>
+            <ul class="navigation responsive">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="../lesson9/home.html">Home</a></li>
+                <li><a href="../lesson10/preston-10.html">Preston, ID</a></li>
+                <li><a href="../lesson11/sodasprings.html"> Soda Springs</a></li>
+                <li><a href="../lesson11/fishhaven.html"> Fish Haven</a></li>
+                <li><a href="lesson8/stormcenter.html" class="active"> Storm Center</a></li>
+                <li><a href="../lesson7/gallery.html"> Gallery</a></li>
+            </ul>
+        
+        </nav>
+
+        <main>
+            <h1>Storm Center</h1>
+            <section>
+                <form method="GET" action="thanks.html">
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <p class="req">* are required fields.</p>
+                        <label class="top">Full Name* <input type="text" name="name" pattern="[a-zA-Z0-9\s]{5,}" required></label>
+                        <label class="top">Email Address <input type="email" name="email" placeholder="name@example.com"></label>
+                        <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+                        <label class="top">Zip Code* <input type="number" name="zip" required ></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Storm Data</legend>
+                        <label class="top">Storm Date <input type="date" name="strmDate" class="app"></label>
+                        <label class="top">Storm Type 
+                            <input list="strmTypeList" name="strmType" placeholder="Choose Storm Type">
+                            
+                            <datalist id="strmTypeList">
+                                <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Hurricane">Hurricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>
+                                <option value="Tornado">Tornado</option>
+                            </datalist>
+                        </label>
+                        <label class="top">Storm Severity: <output id="strmOutSev" name="strmoutSev">1</output>
+                        </label>
+                        <label class="top">
+                            <input type="range" id="strmInSev" name="strminSev" min="1" max="10" value="1" oninput="strmOutSev.value = strmInSev.value">
+                           
+                        </label>
+                        <label class="top">Storm Region
+                            <select name="strmReg" class="app">
+                                <option disabled selected>Select Region  &#9660;</option>
+                                <option>Preston</option>
+                                <option>Soda Springs</option>
+                                <option>Fish Haven</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Other</legend>
+                        <div>User in Danger? </div>
+                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+
+                        <label class="top">Additional Information <textarea></textarea></label>
+                    </fieldset>
+                    <div class="textCenter">
+                        <input type="submit" name="submit" class="submitBtn" value="SEND">
+                    </div>
+                </form>
+            </section>
+            
+        </main>
+
+        <footer>
+            &copy;<span id="currentdate">   </span><span>   My Weather Stylist  | <a href="../index.html">Brenda Jacobsen</a>  |  </span>  <br>
+            <span id="lastModified"></span>
+        </footer>
+        <script src="javascript.js"></script>
+    <script src="currentdate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>WebFont.load({google: {families:['Ubuntu']}});</script>
+    </body>
+</html>

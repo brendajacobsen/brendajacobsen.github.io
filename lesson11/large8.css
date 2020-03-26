@@ -1,0 +1,82 @@
+@media only screen and (min-width: 64em){
+    nav button {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: white;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: 2%;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        padding: 0;
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+
+    nav ul li {
+        float: left;
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, .3);
+        padding: .6rem 1rem;
+    }
+    main section {
+        margin: 0 3% 0 3%;
+    }
+    fieldset {
+        margin: 1rem 0;
+        padding: 1rem;
+        border: 2px solid #EAF27C;
+    }
+    
+    fieldset legend {
+        margin: 0.25rem;
+        padding: .5rem;
+        font-weight: bold;
+    }
+    
+    form label.top, label.sbs, form div {
+        display: block;
+        margin: .25rem;
+        padding: .5rem 0;
+        font-size: .9rem;
+    }
+    form label.top input, textarea, select, .submitBtn {
+        max-width: 100%;
+    }
+    .textCenter {
+        text-align: center;
+    }
+    .submitBtn {
+        margin: 0 0 1rem .75rem;
+    }
+
+    .thanksbox {
+        max-width: 50%;
+        margin: 2rem auto;
+    }
+    
+    .thanksbox button {
+        width: 30%;
+    }
+   
+}
