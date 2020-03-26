@@ -1,0 +1,75 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    nav button {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: white;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    nav ul {
+        margin-left: 2%;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        padding: 0;
+        display: flex;
+        list-style: none;
+        text-align: center;
+    }
+
+    nav ul li {
+        float: left;
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, .3);
+        padding: .6rem 1rem;
+    }
+
+    main section {
+        margin: 0 3% 0 3%;
+    }
+   /*-----------------------------------------------cards-----------------------------------------------------------------------------*/
+   .cards {
+    margin: 1rem 2%;
+}
+
+.cards section{
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: .5rem;
+}
+
+.col-2 {
+    order: 1;
+    padding-top: 0;
+}
+
+.cards section:nth-child(2) .col-2 {
+    order: -1;
+}
+
+.cards img {
+    max-width: 100%;
+}
+
+.col-1, .col-2 {
+    padding: 1rem;
+}
+}
